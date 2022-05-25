@@ -1,0 +1,175 @@
+@media only screen and (max-width:1200px){
+    .wrapper {max-width: 100%;padding: 0 30px;}
+    h1 {font-size: 36px;}
+    h2 {font-size: 32px;}
+    h3 {font-size: 28px;}
+    h4, .h4 {font-size: 22px;}
+    h5 {font-size: 20px;}
+    .button {padding: 8px 20px;}
+    .button.large {min-width: 155px;min-height: 46px;padding: 10px 20px;}
+    section, footer {padding: 55px 0;}
+/* header section */
+    .header-inner {padding: 12px 0;}
+    .top-menu .menu-link {padding: 10px;}
+    .sign-option button {margin: 0 8px;}
+    
+    section.main-section {padding: 20px 0 32px;}
+    .main-section .banner-data p {font-size: 16px;}
+    .section-desc {padding-top: 3px;padding-bottom: 20px;}
+    .get-start {margin-right: 20px;}
+    .watch-video img {max-width: 18px;max-height: 18px;}
+    .watch-video a {padding-left: 6px;}
+
+    .product-section::before, .expert-section::before {background-position: center;}
+    section.product-section, section.expert-section {margin: 55px 0;}
+    .section-title {padding-bottom: 10px;}
+    .product-data {padding-top: 46px;}
+    .product-icon {margin-bottom: 20px;}
+    .product-item .product-title {margin-bottom: 10px;}
+    .product-inner .button-wrap {padding-top: 24px;padding-bottom: 50px;}
+
+    .item-inner .item-type {padding-bottom: 8px;}
+    /* .item-inner:not(:first-child) {padding-top: 18px;} */
+
+    .support-data .item-inner:not(:first-child) {padding-top: 20px;}
+    .item-inner .item-img {margin-right: 20px;}
+
+    .expert-data{padding-top: 10px;}
+    .expert-data .item-inner .item-img {max-width: 68px;max-height: 68px;margin-right: 16px;}
+    .expert-says p {padding: 8px 18px;}
+
+    .owl-theme .owl-nav.disabled + .owl-dots {margin-top: 44px;}
+    .owl-theme .owl-dots .owl-dot span {width: 12px;height: 12px;}
+    .strategie-data {padding: 18px;}
+    .profile-data {margin-bottom: 10px;}
+    .profile-data p {padding: 0 8px;font-size: 14px;}
+
+    .price-item-inner {padding: 18px;}
+
+    .client-item-inner {padding: 20px 20px;}
+}
+
+@media only screen and (max-width:992px){
+    .wrapper {padding: 0 20px;}
+    .button {padding: 8px 14px;font-size: 14px;}
+    h1 {font-size: 32px;}
+    h2 {font-size: 28px;}
+    h3 {font-size: 26px;}
+    h4, .h4 {font-size: 20px;}
+    h5 {font-size: 18px;}
+    .section-desc {padding-bottom: 16px;}
+    .button.large {min-width: 135px;min-height: 42px;}
+    section, footer {padding: 45px 0;}
+
+
+    /* header */
+    .header-inner {padding: 10px 0;}
+    .sign-option button {margin: 0 6px;}
+    .top-menu .menu-link {padding: 8px;}
+
+    /* main-section */
+    section.main-section {padding: 16px 0 22px;}
+
+    .product-data {padding-top: 36px;}
+    .product-icon {margin-bottom: 14px;}
+    .product-inner .button-wrap {padding-top: 20px;padding-bottom: 40px;}
+
+    .title-for {font-size: 14px;}
+    .item-inner .item-type {padding-bottom: 4px;}
+    .item-inner:not(:first-child) {padding-top: 14px;}
+
+    .support-data .item-inner:not(:first-child) {padding-top: 16px;}
+
+    .expert-data .item-inner {align-items: flex-start;}
+    .expert-says p {font-size: 14px;}
+    .expert-inner .btn-contact-expert {margin-top: 38px;}
+
+    .price-data {margin:0 -20px;}
+    .price-item {padding:0 20px;}
+    .price-number {padding: 10px 0;}
+    .price {font-size: 60px;}
+    .price-button {padding: 18px 0 8px;}
+
+    .client-data {margin:0 -16px;}
+    .client-item {padding:0 16px;}
+    .client-item-inner {padding: 16px 20px;}
+
+    .legal-stuff , .signup-email{padding-top: 20px;}
+    .owl-theme .owl-nav.disabled + .owl-dots {margin-top: 24px;}
+
+}
+
+
+
+@media only screen and (max-width:768px){
+    section.product-section, section.expert-section {margin: 35px 0;}
+    section, footer {padding: 35px 0;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 20px;}
+    h4, .h4 {font-size: 18px;}
+    h5 {font-size: 16px;}
+
+    body{font-size: 14px;}
+    .section-desc {padding-bottom: 12px;}
+
+    .site-wrapper{position: relative;}
+    body.menu-active{overflow: hidden;}
+    .logo {max-width: 148px;}
+    .menu-icon{display: block;}
+    .top-menu .nav{position: absolute;width: 100%;height: 100vh;top: 0;right: 0;transform: translateX(100%);opacity: 0;visibility: hidden;transition: all 0.5s;background: rgba(0,0,0,0.6);z-index: 9;}
+    .top-menu.menu-active .nav{transform: translateX(0);opacity: 1;visibility: visible;}
+    .menu-wrapper{align-items: center;flex-direction: column;justify-content: space-evenly;background:rgb(255, 255, 255);padding: 0 20px;}
+    .top-menu .menu{flex-direction: column;align-items: center;}
+    .menu-icon.menu-active{position: relative;z-index: 9;}
+    .top-menu.menu-active .menu-icon .first {transform: translate(0px, 8px) rotate(45deg);}
+    .top-menu.menu-active .menu-icon .second {transform: rotate(-45deg);}
+    .top-menu.menu-active .menu-icon .third {opacity: 0;}
+
+
+    .main-section .banner-data p {font-size: 14px;}
+    .watch-video {display: block;padding-top: 10px;}    
+
+    .product-item {padding: 20px;}
+    .product-data {padding-top: 24px;text-align: center;margin: 0 -20px;}
+    .product-icon {margin: 0 auto 12px;}
+    .profile-data p {font-size: 12px;}
+
+    .price-item {padding:20px;}
+    .price-section .price-item:not(:last-child)::before {display: none;}
+    .support-data .item-inner:not(:first-child) {padding-top: 10px;}
+
+    .expert-data .item-inner:not(:first-child) {padding-top: 32px;}
+    .expert-says p {line-height: 1.5;padding: 7px 12px;border-radius: 16px;}
+
+    .client-item {padding:16px;}
+    .profile-img {max-height: 42px;max-width: 42px;}
+    .newsletter-data {padding: 20px 20px;}
+}
+@media only screen and (max-width:576px){
+    .wrapper {padding: 0 30px;}
+    .logo {max-width: 170px;}
+
+    .menu-icon > span {width: 24px;margin: 5px 0px;}
+    
+    .main-left {padding-top: 10px;text-align: center;}
+    .watch-video {display: inline;padding: 0;}
+
+    .product-item {padding: 15px;max-width: 240px;margin: 0 auto;}
+
+    .left-inner {padding: 50px 10px 0;}
+    .stratgies-inner .section-heading {text-align: center;}
+
+    .price-data {margin: 0;}
+    .price-item {padding: 20px 24px;}
+
+    .client-data {margin: 0;}
+    .client-item {padding: 16px 12px;}
+
+    .expert-data .right-inner{padding-top: 32px;}
+    .strategies-data {margin: 0;}
+    .strategie-data {padding: 18px 14px;}
+    .newsletter-data .left-inner {padding: 0;text-align: center;}
+    .newsletter-data .right-inner{padding-top: 32px;}
+    .resource-menu{padding-top: 20px;}  
+}
